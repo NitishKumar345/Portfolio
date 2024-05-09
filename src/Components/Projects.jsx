@@ -11,11 +11,11 @@ export default function Projects() {
     <>
     <div 
     name="Projects" 
-    
+
     className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10 mb-10"> 
     <div >
       <h1 className="text-3xl font-bold mb-5">Projects</h1>
-      <div className="flex justify-between ">
+      <div className="projectsBox ">
                 <div className="box1">
                     <div className="headingportfolio">
                     <img src={portfolioimg} alt=""  className="portfolioimg"/>
@@ -25,13 +25,13 @@ export default function Projects() {
                 <div className="box1">
                     <div className="Bookstore">
                     <img src={Bookstore} alt="" className="Bookimg"/>
-                        <h4 className='Books'>BookStore</h4>
+                        <h4 className='Books'>BookStore website</h4>
                     </div>
                 </div>
                 <div className="box1">
                     <div className="Fruits">
                     <img src={fruitslicerimg} alt="" className="Fruitsimg"/>
-                        <h4 className='Fruith4'>Fruit Slicer</h4>
+                        <h4 className='Fruith4'>Fruit Slicer Game</h4>
                     </div>
                 </div>
                 <div className="box1">

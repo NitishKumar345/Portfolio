@@ -1,3 +1,12 @@
+.projectsBox{
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+
+
 .box1{
     height: 20rem;
     width: 20vw;
@@ -41,7 +50,7 @@
 }
 .Books{
     font-size: 1.5rem;
-    margin-left: 4.5rem;
+    margin-left: 3rem;
     margin-top: 1rem;
 }
 
@@ -58,7 +67,7 @@
     margin-left: 3.5rem;
 }
 .Fruith4{
-    margin-left: 4.5rem;
+    margin-left: 3rem;
     margin-top: 1rem;
 }
 .weather{
@@ -75,6 +84,193 @@
     margin-left: 3.5rem;
 }
 .weatherh4{
-    margin-left: 4.5rem;
+    margin-left: 3.5rem;
     margin-top: 1rem;
+}
+
+/* for mobile */
+@media only screen and (min-width:320px) and (max-width:767px){
+    .projectsBox{
+        height: 25rem;
+        display: inline-block;
+         
+        
+    } 
+    
+    .box1{
+        height: 20rem;
+        width: 75vw;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 2rem;
+        border-color: red;
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 2.5rem;
+        
+    }
+    .box1:hover{
+        /* scale-105 duration-200 cursor-pointer */
+        transform: scale(1.08);
+        transition-duration: 0.5s;
+    }
+    .headingportfolio{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+         
+    }
+    .portfolioimg{
+        height: 15rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    
+    .Bookstore{
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
+    .Bookimg{
+        height: 10rem;
+        margin-top: 3rem;
+        margin-left: 4.5rem;
+    }
+    .Books{
+        font-size: 1.5rem;
+       margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    
+    .Fruits{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
+    .Fruitsimg{
+        height: 12rem;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+    .Fruith4{
+        margin-left: 4rem;
+        margin-top: 1rem;
+    }
+    .weather{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        
+    }
+    .weatherimg{
+        height: 12rem;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+    }
+    .weatherh4{
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+    } 
+}
+
+/* for tablet */
+@media only screen and (min-width:767px) and (max-width:1024px){
+    .projectsBox{
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        
+    } 
+    
+    
+    .box1{
+        height: 15rem;
+        width: 20vw;
+        border: 2px solid white;
+        background-color: white;
+        border-radius: 2rem;
+        border-color: red;
+        display: flex;
+        
+    }
+    .box1:hover{
+        /* scale-105 duration-200 cursor-pointer */
+        transform: scale(1.08);
+        transition-duration: 0.5s;
+    }
+    .headingportfolio{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+         
+    }
+    .portfolioimg{
+        height: 10rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .Bookstore{
+        padding-top: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
+    .Bookimg{
+        height: 8rem;
+        margin-top: 0.3rem;
+        margin-left: 2rem;
+    }
+    .Books{
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+    }
+    
+    .Fruits{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+    }
+    .Fruitsimg{
+        height: 8rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .Fruith4{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .weather{
+        padding-top: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        
+    }
+    .weatherimg{
+        height: 8rem;
+        margin-top: 1rem;
+        margin-left: 1.7rem;
+    }
+    .weatherh4{
+        margin-left: 1.1rem;
+        margin-top: 0.5rem;
+    }   
 }
