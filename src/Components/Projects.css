@@ -8,7 +8,7 @@
 
 
 .box1{
-    height: 20rem;
+    height: 23rem;
     width: 20vw;
     border: 2px solid white;
     background-color: white;
@@ -31,9 +31,18 @@
      
 }
 .portfolioimg{
-    height: 15rem;
+    height: 13rem;
     margin-top: 1rem;
+    margin-left: 3.5rem;
+}
+.portfolioh4{
     margin-left: 2rem;
+}
+.livelink{
+    font-size: 1rem;
+    text-decoration: underline;
+    margin-left: 2rem;
+  
 }
 
 .Bookstore{
@@ -44,12 +53,11 @@
     font-weight: 700;
 }
 .Bookimg{
-    height: 10rem;
+    height: 8rem;
     margin-top: 3rem;
-    margin-left: 4.5rem;
+    margin-left: 2.6rem;
 }
 .Books{
-    font-size: 1.5rem;
     margin-left: 3rem;
     margin-top: 1rem;
 }
@@ -87,6 +95,7 @@
     margin-left: 3.5rem;
     margin-top: 1rem;
 }
+ 
 
 /* for mobile */
 @media only screen and (min-width:320px) and (max-width:767px){
@@ -98,7 +107,7 @@
     } 
     
     .box1{
-        height: 20rem;
+        height: 23rem;
         width: 75vw;
         border: 2px solid white;
         background-color: white;
@@ -123,9 +132,9 @@
          
     }
     .portfolioimg{
-        height: 15rem;
+        height: 14rem;
         margin-top: 1rem;
-        margin-left: 2rem;
+        margin-left: 3rem;
     }
     
     .Bookstore{
@@ -136,9 +145,9 @@
         font-weight: 700;
     }
     .Bookimg{
-        height: 10rem;
+        height: 9rem;
         margin-top: 3rem;
-        margin-left: 4.5rem;
+        margin-left: 2.3rem;
     }
     .Books{
         font-size: 1.5rem;
@@ -194,7 +203,7 @@
     
     
     .box1{
-        height: 15rem;
+        height: 18rem;
         width: 20vw;
         border: 2px solid white;
         background-color: white;
@@ -230,9 +239,9 @@
         font-weight: 700;
     }
     .Bookimg{
-        height: 8rem;
+        height: 6rem;
         margin-top: 0.3rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .Books{
         font-size: 1.5rem;
